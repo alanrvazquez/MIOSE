@@ -1,5 +1,6 @@
 README file for code to accompany "A Mixed Integer Optimization Approach 
-for Model Selection in Screening Experiments."
+for Model Selection in Screening Experiments." by Alan R. Vazquez,
+Eric D. Schoen and Peter Goos.
 
 ===CONTENTS=======================================
 
