@@ -44,7 +44,7 @@ def gbeta(X, y, betap, N, p):
      
     r_vec = y.reshape(N,1) - np.matmul(X, betap)
     ltwonorm_r = np.matmul(r_vec.T, r_vec)
-    return 0.5*np.asscalar(ltwonorm_r)
+    return 0.5*np.ndarray.item(ltwonorm_r)
 
 def gradbeta(X, y, betap, N, p):
     """ Compute gradient of RSS in beta.
